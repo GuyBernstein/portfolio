@@ -1,4 +1,4 @@
-name = "my-site"                     # your site’s name
+name = "portfolio"                     # your site’s name
 compatibility_date = "2025-06-22"    # today’s date
 workers_dev = true                   # enable workers.dev preview
 
