@@ -1,0 +1,12 @@
+name = "my-site"                     # your site’s name
+compatibility_date = "2025-06-22"    # today’s date
+workers_dev = true                   # enable workers.dev preview
+
+# Tell Wrangler you’re uploading a directory of static assets:
+type = "site"
+
+account_id = "48110e05664b089f3c8482942693bd66"     # find in your Cloudflare dashboard
+
+[site]
+  bucket = "."                       # “.” means publish the repo root
+  entry-point = "."                  # no Worker code, just assets
